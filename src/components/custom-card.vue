@@ -1,0 +1,16 @@
+<template>
+  <article class="custom-card">
+    <!-- stuff for header enter here -->
+    <header>
+      <slot name="header"></slot>
+    </header>
+    <main>
+      <slot name="default"></slot>
+    </main>
+    <footer>
+      <slot name="footer"></slot>
+    </footer>
+  </article>
+</template>
+
+<style scoped></style>
